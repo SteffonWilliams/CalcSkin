@@ -6,18 +6,25 @@ public class CalcEngine {
     }
 
     public double add(double v, double v1) {
-        return Double.NaN;
+
+        double sum = v + v1;
+        return sum;
     }
 
     public double subtract(double v, double v1) {
-        return Double.NaN;
+
+        double result = v - v1;
+        return result;
     }
 
     public double multiply(double v, double v1) {
-        return Double.NaN;
+
+        double result = v * v1;
+        return result;
     }
 
     public double divide(double v, double v1) {
-        return Double.NaN;
+        double result = v / v1;
+        return result;
     }
 }
